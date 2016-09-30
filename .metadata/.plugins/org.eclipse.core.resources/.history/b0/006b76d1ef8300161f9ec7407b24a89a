@@ -1,0 +1,26 @@
+package testWebDriver;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+public class testDropDown {
+
+	public static void main(String[] args) {
+
+		System.setProperty("webdriver.gecko.driver","/Users/cristianion/Documents/geckodriver");
+		DesiredCapabilities cap = DesiredCapabilities.firefox();
+		
+		cap.setCapability("marionette",true);
+		
+		WebDriver driver = new FirefoxDriver(cap);
+		driver.get("https://www.wikipedia.org/");
+		
+		
+		
+		
+		
+		
+	}
+
+}
