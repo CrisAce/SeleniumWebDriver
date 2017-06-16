@@ -6,7 +6,7 @@ public class Tree extends Plant {
 		System.out.println("Tree is growing");
 	}
 	void shedLeaves(){
-		System.out.println("Shedding leaves");
+		System.out.println("alksndasn leasadadadves");
 	}
 
 	
